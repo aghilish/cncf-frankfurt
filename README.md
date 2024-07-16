@@ -180,11 +180,11 @@ crossplane beta render xr.yaml composition.yaml functions.yaml -x | crossplane b
 ```
 
 ```bash
-docker build --tag c8n.io/aghilish/function-cnf:v0.0.1 .
+docker build --tag ttl.sh/function-cnf:1h .
 ```
 
 ```bash
-docker push c8n.io/aghilish/function-cnf:v0.0.1
+docker push ttl.sh/function-cnf:1h
 ```
 
 ```bash
@@ -194,7 +194,7 @@ kind: Function
 metadata:
   name: function-cnf
 spec:
-  package: c8n.io/aghilish/function-cnf:v0.0.1 
+  package: ttl.sh/function-cnf:1h
 EOF
 ```
 
