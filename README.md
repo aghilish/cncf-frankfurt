@@ -175,3 +175,6 @@ spec:
 EOF
 ```
 
+```bash
+kubectl delete -f xr.yaml
+```
