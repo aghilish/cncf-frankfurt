@@ -24,7 +24,7 @@ type Input struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
 
-	// Example is an example field. Replace it with whatever input you need. :)
+	// Number of s3 buckets
 	Count int `json:"count"`
 }
 ```
